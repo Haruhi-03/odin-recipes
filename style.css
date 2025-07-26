@@ -43,9 +43,20 @@ a{
 .sub-title{
     font-weight: 100;
 }
-span{
+span,
+.cheese,
+.tomato,
+.lettuce{
     font-weight: bold;
-    color: rgb(216, 219, 0);
+    color: rgb(204, 207, 35);
+}
+
+.tomato{
+    color: red;
+}
+
+.lettuce{
+    color: darkgreen;
 }
 
 .item-list {
@@ -61,7 +72,8 @@ span{
 }
 
 .burger-ingredients,
-.process{
+.process,
+.chicken-items{
     width: 320px;
     height: auto;
 }
@@ -83,3 +95,13 @@ span{
     padding: 25px;
     color:darkslateblue;
 }
+
+.chicken-items{
+    background-color: burlywood;
+}
+
+.chicken-ingredients{
+    padding: 16px;
+    color: darkgreen;
+}
+
