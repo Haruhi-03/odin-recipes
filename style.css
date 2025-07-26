@@ -60,3 +60,26 @@ span{
     padding: 10px 8px;
 }
 
+.burger-ingredients,
+.process{
+    width: 320px;
+    height: auto;
+}
+.burger-ingredients{
+    background-color: lightcoral;
+}
+
+
+.burger-ingredients .burger-item{
+    color: black ;
+    padding: 15px;
+}
+
+.process{
+    background-color: chocolate;
+}
+
+.process .process-steps{
+    padding: 25px;
+    color:darkslateblue;
+}
